@@ -1,0 +1,25 @@
+Package: montyhall
+Title: Simulation of the Monty Hall Problem 
+Version: 0.0.0.9000
+Authors@R: 
+    person(given="Jacqui", 
+           family="Anderson", 
+           role=c("aut", "cre"), 
+           email="jacqui.anderson@snow.edu",
+           comment=c(ORCID="00145470"))
+Depends: 
+   dplyr
+Description: This package runs a simulation of the Monty Hall Problem. 
+   It creates a vector of three doors and assigns "car" to one and "goat"
+   to the other two. The a door is then randomly selected. Of the 
+   remaing two doors, a goat is revealed. The user can then choose to 
+   stay with the original door, or switch and select the remaining un-
+   opened door. The results, win or lose, are then given. This package
+   is set up to run the scenario n number of times and display a table 
+   of proportions intidating win vs lose associated with the choice to 
+   switch vs. stay. 
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
